@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AboutDialog</class>
+ <widget class="QDialog" name="AboutDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>578</width>
+    <height>385</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="toolTip">
+   <string>About</string>
+  </property>
+  <property name="statusTip">
+   <string>About</string>
+  </property>
+  <property name="whatsThis">
+   <string>About the Application</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(22, 24, 34);</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="about">
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Made as part of &lt;span style=&quot; font-weight:600;&quot;&gt;Datathon 7&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;GUI and DataViz Integration&lt;/span&gt; Made by &lt;span style=&quot; font-weight:600;&quot;&gt;Saikiran&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Network Plot &lt;/span&gt;Made by &lt;span style=&quot; font-weight:600;&quot;&gt;Sanjay&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;ChoroPleth Plot &lt;/span&gt;Made by &lt;span style=&quot; font-weight:600;&quot;&gt;Khalid&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;LineGraph and Data Preprocessing &lt;/span&gt;Made by &lt;span style=&quot; font-weight:600;&quot;&gt;Rohith&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Scatter Plot &lt;/span&gt;Made by &lt;span style=&quot; font-weight:600;&quot;&gt;Saikiran&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
